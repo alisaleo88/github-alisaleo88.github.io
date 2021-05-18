@@ -1,0 +1,265 @@
+/* == HOME PAGE == */
+
+
+header {
+    background-color: #0B0742;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    height: 155px;
+    position: fixed;
+}
+
+nav {
+    float: right;
+    position: relative;
+    padding-top: 100px;
+    padding-right: 25px;
+
+}
+
+nav a {
+    font-family: 'Zilla Slab', serif;
+    font-size: 24pt;
+    line-height: 18pt;
+    color: #ffffff;
+    padding-right: 25px;
+    text-decoration: none;
+    align-items: baseline;
+}
+
+#button {
+    font-size: 18pt;
+    line-height: 18pt;
+    color: #e47471;
+    background-color: #4c24ef;
+    border: 2px solid;
+    border-color: #e47471;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.logo {
+    padding-top: 50px;
+    padding-left: 30px;
+    height: 50px;
+    width: auto;
+
+}
+
+#instagram {
+    width: auto;
+    height: 50px;
+}
+
+#review {
+    width: auto;
+    height: 40px;
+}
+
+.home {
+    background-image: url(homepage_image2.png);
+    margin: 0px;
+}
+
+#about {
+    font-family: 'Overpass', sans-serif;
+    font-size: 14pt;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px;
+    padding-bottom: 75px;
+    height: 300px;
+    width: 450px;
+    margin-left: 40%;
+    margin-right: 60%;
+}
+
+.home {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hours {
+    float: left;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.address {
+    float: right;
+    text-align: right;
+    padding-right: 50px;
+}
+
+ul {
+    list-style: none;
+    column-count: 2;
+}
+
+/*
+#logo {
+    padding-top: 20px;
+    padding-left: 550px;
+    width: auto;
+    height: 175px;
+}
+*/
+
+
+#logo {
+    padding-top: 20px;
+    height: 175px;
+}
+
+
+#homefooter {
+    font-family: 'Zilla Slab', serif;
+    background-color: #0B0742;
+    color: #ffffff;
+    padding: 5px;
+    margin: auto;
+    height: 200px;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    position: fixed;
+}
+
+/* == ARTIST PAGE == */
+
+#artistpage {
+    background-color: #000000;
+    padding-top: 100px;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-bottom: 300px;
+}
+
+#gallery {
+    color: #ffffff;
+}
+
+#work {
+    width: auto;
+    height: 500px;
+    padding:
+}
+
+.floatleft {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+.floatright {
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+.artist {
+    display: flex;
+}
+
+article {
+    padding: 200px;
+}
+
+
+
+#footer {
+    font-family: 'Zilla Slab', serif;
+    background-color: #0B0742;
+    color: #ffffff;
+    padding: 5px;
+    margin: auto;
+    height: 200px;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    position: fixed;
+}
+
+/* == BOOK APPOINTMENT == */
+
+#bookappointment {
+    background-color: #000000;
+    padding-top: 100px;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-bottom: 300px;
+}
+
+#bookform {
+    border-radius: 5px;
+   
+    padding: 50px;
+    padding-top: 200px;
+    padding-bottom: auto;
+    color: #ffffff;
+    align-content: center;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+    text-align: right;
+    
+}
+
+
+
+label,
+input {
+  display: inline-block;
+  
+}
+
+label {
+  width: 30%;
+  text-align: right;
+  margin: 0 15% 0 4%;
+}
+
+input+input {
+  float: left;
+}
+
+
+/* == AFTERCARE == */
+
+#aftercarepage {
+    background-color: #000000;
+    padding-top: 100px;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-bottom: 300px;
+}
+
+h2{
+    font-family: 'Zilla Slab', serif;
+    color: #e47471;
+}
+
+
+p {
+    font-family: 'Overpass', sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
+
+}
+
+
+.care {
+    display: flex;
+    width: 1200px;
+}
+
+#aftercare {
+    color: #ffffff;
+}
+
+strong {
+    color: #4c24ef;    
+    
+}
+
